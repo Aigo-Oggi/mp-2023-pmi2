@@ -1,0 +1,21 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  sample_matrix.cpp
+B:\лабораторные\вторая лаборатораная\include\tmatrix.h(321,29): warning C4018: <: несоответствие типов со знаком и без знака
+  (компиляция исходного файла "../samples/sample_matrix.cpp")
+  B:\лабораторные\вторая лаборатораная\include\tmatrix.h(321,29):
+  контекст создания экземпляра шаблона (сначала самый старый)
+  	B:\лабораторные\вторая лаборатораная\samples\sample_matrix.cpp(13,23):
+  	выполняется компиляция ссылки на экземпляр класс шаблон функции "TDynamicMatrix<int>"
+  	B:\лабораторные\вторая лаборатораная\include\tmatrix.h(315,19):
+  	во время компиляции функции-члена класс шаблон "TDynamicMatrix<int> &TDynamicMatrix<int>::operator =(const TDynamicMatrix<int> &)"
+  		B:\лабораторные\вторая лаборатораная\samples\sample_matrix.cpp(25,5):
+  		см. первую ссылку на "TDynamicMatrix<int>::operator =" в "main"
+  
+B:\лабораторные\вторая лаборатораная\include\tmatrix.h(322,19): error C2065: pmem: необъявленный идентификатор
+  (компиляция исходного файла "../samples/sample_matrix.cpp")
+  
+B:\лабораторные\вторая лаборатораная\include\tmatrix.h(322,31): error C2039: "pmem": не является членом "TDynamicMatrix<int>".
+  (компиляция исходного файла "../samples/sample_matrix.cpp")
+  B:\лабораторные\вторая лаборатораная\samples\sample_matrix.cpp(13,3):
+   см. объявление "TDynamicMatrix<int>"
+  

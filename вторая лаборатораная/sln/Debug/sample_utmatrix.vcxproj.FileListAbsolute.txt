@@ -1,0 +1,2 @@
+C:\Users\Василий Васильевич\mp2-lab2-matrix\sln\Debug\sample_utmatrix.exe
+B:\лабораторные\вторая лаборатораная\sln\Debug\sample_utmatrix.exe
